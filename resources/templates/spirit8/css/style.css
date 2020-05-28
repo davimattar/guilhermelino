@@ -1,0 +1,559 @@
+.page {
+  font-family: 'Lato', sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  color: #5a5a5a;
+}
+.page h1 {
+  text-transform: uppercase;
+}
+.page h1 strong {
+  font-weight: 900;
+}
+.page h2 {
+  text-transform: uppercase;
+  /*line-height: 20px;*/
+  margin: 0;
+}
+.page h3 {
+  font-size: 18px;
+  font-weight: 900;
+}
+.page h4 {
+  text-transform: uppercase;
+}
+.page h5 {
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 20px;
+}
+.page p {
+  font-family: 'Open Sans', sans-serif;
+}
+.page p.intro {
+  font-size: 16px;
+  margin: 12px 0 0;
+  line-height: 24px;
+  font-family: 'Open Sans', sans-serif;
+}
+.page a {
+  color: #FCAC45;
+}
+.page a:hover,
+.page a:focus {
+  text-decoration: none;
+  color: #FCAC45;
+}
+.page .section-title hr {
+  border-color: #fcac45;
+  border-width: 4px;
+  width: 60px;
+  /*float: left;*/
+  clear: both;
+}
+.page .clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.page .clearfix {
+  display: inline-block;
+}
+.page * html .clearfix {
+  height: 1%;
+}
+.page .clearfix {
+  display: block;
+}
+.page ul, .page ol {
+  padding: 0;
+  webkit-padding: 0;
+  moz-padding: 0;
+}
+.page .navbar.navbar-default{
+  padding: 20px;
+  transition: all 0.8s;
+}
+.page .navbar-default {
+  background-color: rgba(248, 248, 248, 0);
+  border-color: rgba(231, 231, 231, 0);
+}
+.page a.navbar-brand {
+  text-transform: uppercase;
+  font-size: 22px;
+  color: #fff;
+  font-weight: 900;
+}
+.page a.navbar-brand:hover{
+  color: #fff;
+}
+.page .navbar-default .navbar-nav li a {
+  text-transform: uppercase;
+  color: #FFF;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.page .on {
+  background-color: #222222;
+  padding: 0 !important;
+}
+.page .navbar-default .navbar-nav > .active > a,
+.page .navbar-default .navbar-nav > .active > a:hover,
+.page .navbar-default .navbar-nav > .active > a:focus {
+  color: #FCAC45;
+  background-color: transparent;
+  font-weight: 700;
+}
+.page .navbar-toggle {
+  border-radius: 0;
+}
+.page .navbar-default .navbar-toggle:hover,
+.page .navbar-default .navbar-toggle:focus {
+  background-color: #FCAC45;
+  border-color: #FCAC45;
+}
+.page .navbar-default .navbar-toggle:hover > .icon-bar {
+  background-color: #FFF;
+}
+.page .spirit8-home {
+  background: url(../img/01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #cfcfcf;
+}
+.page .spirit8-home .overlay {
+  /* FF3.6+ */
+  /* Chrome,Safari4+ */
+  /* Chrome10+,Safari5.1+ */
+  /* Opera 11.10+ */
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 );
+  /* IE6-9 */
+  background-attachment: fixed;
+  padding-bottom: 342px;
+}
+.page .spirit8-home p.lead {
+  color: #e3e3e3;
+}
+.page .content {
+  position: relative;
+  padding: 20% 0 0;
+}
+.page .color {
+  color: #fcac45;
+}
+.page a.fa.fa-angle-down {
+  padding: 10px 15px;
+  color: #fff;
+  border: 2px solid #b4b4b4;
+  border-radius: 50%;
+  font-size: 24px;
+  margin-top: 200px;
+  transition: all 0.5s;
+}
+.page a.fa.fa-angle-down:hover {
+  background: #fcac45;
+  color: #ffffff;
+  border: 2px solid #fcac45;
+}
+.page .spirit8-about {
+  padding: 80px 0;
+}
+.page .about-list {
+  margin: 30px 0 0;
+}
+.page .about-list li {
+  /*display: block;*/
+  font-size: 16px;
+  line-height: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+.page ul.about-list li span {
+  margin-right: 10px;
+}
+.page .spirit8-team {
+  background: url(../img/03.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+.page .spirit8-team .overlay {
+  /* FF3.6+ */
+  /* Chrome,Safari4+ */
+  /* Chrome10+,Safari5.1+ */
+  /* Opera 11.10+ */
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 );
+  /* IE6-9 */
+  height: auto;
+  background-attachment: fixed;
+  padding: 80px 0;
+}
+.page .section-title.center {
+  padding: 30px 0;
+}
+/*.page .section-title h2,
+.page .section-title.center h2 {
+  font-weight: 300;
+}*/
+.page .section-title.center .line {
+  border-top: 4px solid #fcac45;
+  height: 10px;
+  width: 60px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.page .section-title.center hr {
+  border-top: 4px solid rgba(252, 172, 69, 0.34);
+  width: 40px;
+  text-align: center;
+  margin-top: 10px;
+  position: relative;
+  /*left: 17%;*/
+}
+.page #team {
+  margin: 0 auto;
+}
+.page #team .item {
+  padding: 0;
+  /*margin: 15px;*/
+  color: #FFF;
+  text-align: center;
+}
+.page img.img-circle.team-img {
+  width: 120px;
+  height: 120px;
+  border: 4px solid transparent;
+  transition: all 0.5s;
+}
+.page .spirit8-team .item .thumbnail:hover > img.img-circle.team-img {
+  border: 4px solid #FCAC45;
+}
+.page .spirit8-team .thumbnail {
+  background: transparent;
+  border: 0;
+}
+.page .spirit8-team .thumbnail .caption {
+  padding: 9px;
+  color: #F2F2F2;
+}
+.page .spirit8-services {
+  padding: 80px 0;
+}
+.page .space {
+  margin-top: 40px;
+}
+.page [data-module="content-icon"] > i.fa:not(.bordered):not(.fa-1x):not(.fa-2x):not(.fa-3x):not(.fa-4x):not(.fa-5x){
+  font-size: 40px;
+  border: 4px solid #FCAC45;
+  width: 100px;
+  height: 100px;
+  padding: 27px 25px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+.page [data-module="content-icon"] > i.fa.fa-mobile:not(.bordered):not(.fa-1x):not(.fa-2x):not(.fa-3x):not(.fa-4x):not(.fa-5x){
+  font-size: 50px;
+  padding: 20px 25px;
+}
+.page .spirit8-services .service:hover > i.fa {
+  background: #FCAC45;
+  color: #ffffff;
+}
+.page .spirit8-clients {
+  background: url(../img/04.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+.page .spirit8-clients .overlay {
+  /* FF3.6+ */
+  /* Chrome,Safari4+ */
+  /* Chrome10+,Safari5.1+ */
+  /* Opera 11.10+ */
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 );
+  /* IE6-9 */
+  padding: 80px 0;
+  background-attachment: fixed;
+}
+.page .spirit8-clients .item {
+  padding: 0;
+  /*margin: 35px;*/
+  color: #FFF;
+  text-align: center;
+}
+.page .spirit8-works {
+  padding: 80px 0;
+}
+.page .categories {
+  padding: 10px 0;
+}
+.page ul.cat li {
+  display: inline-block;
+}
+.page .spirit8-works li.pull-right {
+  margin-top: 10px;
+}
+.page ol.type li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.page ol.type li:after {
+  content: ' | ';
+  margin-left: 20px;
+}
+.page ol.type li:last-child:after {
+  content: '';
+}
+.page ol.type li a {
+  color: #222222;
+}
+.page ol.type li a.active {
+  font-weight: 700;
+}
+.page .isotope-item {
+  z-index: 2;
+}
+.page .isotope-hidden.isotope-item {
+  z-index: 1;
+}
+.page .isotope,
+.page .isotope .isotope-item {
+  /* change duration value to whatever you like */
+  transition-duration: 0.8s;
+}
+.page .isotope-item {
+  margin-right: -1px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.page .isotope {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition-property: height, width;
+}
+.page .isotope .isotope-item {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition-property: -webkit-transform, opacity;
+  transition-property: transform, opacity;
+}
+.page .portfolio-item {
+  margin-bottom: 30px;
+}
+.page .portfolio-item .hover-bg {
+  height: 260px;
+  overflow: hidden;
+  position: relative;
+}
+.page .hover-bg .hover-text {
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.66);
+  padding: 25% 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.page .hover-bg .hover-text > h4 {
+  opacity: 0;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  transition: all 0.3s;
+}
+.page .hover-bg:hover .hover-text > h4 {
+  opacity: 1;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+.page .hover-bg .hover-text > i {
+  opacity: 0;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  transition: all 0.3s;
+}
+.page .hover-bg:hover .hover-text > i {
+  opacity: 1;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+}
+.page .hover-bg:hover .hover-text {
+  opacity: 1;
+}
+.page .spirit8-testimonials {
+  background: url(../img/05.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+.page .spirit8-testimonials .overlay {
+  /* FF3.6+ */
+  /* Chrome,Safari4+ */
+  /* Chrome10+,Safari5.1+ */
+  /* Opera 11.10+ */
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 );
+  /* IE6-9 */
+  padding: 80px 0;
+  background-attachment: fixed;
+}
+/*.page #testimonial {
+  padding: 30px 0;
+}
+.page #testimonial .item {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.page #testimonial .item p {
+  font-weight: 400;
+  margin: 30px 0;
+  color: #d1d1d1;
+}*/
+.page .spirit8-contact {
+  padding: 80px 0;
+}
+.page label {
+  float: left;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
+.page .spirit8-contact .form-control {
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-shadow: none;
+  transition: none;
+}
+.page .spirit8-contact .form-control:focus {
+  border-color: inherit;
+  outline: 0;
+  box-shadow: transparent;
+}
+.page .btn.btn-primary {
+  background: #FCAC45;
+  border: 0;
+  border-radius: 0;
+  padding: 10px 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.page .btn:active, .page .btn.active {
+  background-image: none;
+  outline: 0;
+  box-shadow: none;
+}
+.page .btn:focus,
+.page .btn:active:focus,
+.page .btn.active:focus,
+.page .btn.focus,
+.page .btn:active.focus,
+.page .btn.active.focus {
+  outline: thin dotted;
+  outline: none;
+  outline-offset: none;
+}
+
+
+/*
+ * CSS customization for Rockett
+ * Change carefully to not mess the editor-sidebar, preferably using modules selectors
+ */
+
+/* Add the offset for the navbar do not go on top of the editor sidebar when on editor */
+[ng-app] + .page > .navbar {
+  left: initial;
+  width: calc(100% - 289px);
+}
+
+.page [data-module="footer"] {
+  background: #222222;
+  color: #ffffff;
+  padding: 20px 0 15px 0;
+}
+.page [data-module="footer"] p{
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+/* Add some padding to prevent lines of modules go over each other when editing */
+.page [data-module="row"], .page [data-module="col"] {
+  padding: 10px;
+}
+
+/* Fixes the position of the .module-action buttons, otherwise the navbar will be on top of it*/
+.page [data-module="container"][data-module-activated="true"]:first-child:hover > .module-action{
+  top: 91px;
+}
+
+.page [data-module="content-hr"] hr {
+  border-color: #fcac45;
+  border-width: 4px;
+  width: 60px;
+  clear: both;
+}
+
+.page h2 {
+  font-weight: 300;
+}
+
+/* Prevents container from going under navbar when container are deleted */
+.page [data-module="container"]:first-child > .overlay > .container > [data-module="row"]:first-child,
+.page [data-drop="true"] + [data-module="container"]:nth-child(2) > .overlay > .container > [data-drop="true"] + [data-module="row"]:nth-child(2),
+.page [data-module="container"]:first-child > .container > [data-module="row"]:first-child,
+.page [data-drop="true"] + [data-module="container"]:nth-child(2) > .container > [data-drop="true"] + [data-module="row"]:nth-child(2),
+.page [data-module="container"]:first-child > [data-module="row"]:first-child,
+.page [data-drop="true"] + [data-module="container"]:nth-child(2) > [data-drop="true"] + [data-module="row"]:nth-child(2){
+  margin-top: 100px;
+}
+
+/* Fixes the margin of menu-content img*/
+.page [data-module="menu-content"] img {
+  height: 35px;
+  margin-top: 7px;
+}
+
+.page .navbar-default .navbar-nav .dropdown-menu{
+  border: none;
+  border-radius: 0;
+}
+
+.page .navbar-default .navbar-nav .dropdown-menu > li > a{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
